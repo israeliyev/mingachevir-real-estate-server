@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-//@EnableJpaRepositories(basePackages = "io.mingachevir.mingachevirrealestateserver.repository")
+@EnableJpaRepositories(basePackages = "io.mingachevir.mingachevirrealestateserver.repository")
 //@EntityScan(basePackages = "io.mingachevir.mingachevirrealestateserver.model.entity")
 public class MingachevirRealEstateAgencyApplication {
 
