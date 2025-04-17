@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
+            <version>6.2.2</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>
