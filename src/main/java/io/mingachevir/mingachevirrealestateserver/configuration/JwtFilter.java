@@ -1,7 +1,5 @@
 package io.mingachevir.mingachevirrealestateserver.configuration;
 
-import io.mingachevir.mingachevirrealestateserver.model.entity.UserDevice;
-import io.mingachevir.mingachevirrealestateserver.repository.UserDeviceRepository;
 import jakarta.annotation.Nonnull;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
