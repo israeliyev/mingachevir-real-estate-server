@@ -1,3 +1,5 @@
+ALTER ROLE postgres WITH PASSWORD 'mingachevir';
+
 -- Create schema and set search path
 CREATE SCHEMA IF NOT EXISTS public AUTHORIZATION postgres;
 GRANT USAGE, CREATE ON SCHEMA public TO postgres;
