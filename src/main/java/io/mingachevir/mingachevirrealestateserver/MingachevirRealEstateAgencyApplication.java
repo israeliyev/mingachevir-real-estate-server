@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "io.mingachevir.mingachevirrealestateserver.repository")
-//@EntityScan(basePackages = "io.mingachevir.mingachevirrealestateserver.model.entity")
+@EntityScan(basePackages = "io.mingachevir.mingachevirrealestateserver.model.entity")
 public class MingachevirRealEstateAgencyApplication {
 
     public static void main(String[] args) {
