@@ -54,7 +54,7 @@ public class AuthController {
         } catch (BadCredentialsException e) {
             return ResponseEntity.status(401).body("Email və ya şifrə tapılmadı");
         } catch (Exception e) {
-            return ResponseEntity.status(500).body("Giriş zamanı xəta: " + e.getMessage());
+            return ResponseEntity.status(500).body("Giriş zamanı xəta: " + e.toString());
         }
     }
 
